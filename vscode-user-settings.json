@@ -1,0 +1,13 @@
+{
+    "workbench.colorTheme": "Dracula", 
+    "editor.renderWhitespace": "all",
+    "vim.handleKeys": {
+        "<C-x>": false,
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-[>": false,
+        "<C-]>": false,
+        "<C-up>": false,
+        "<C-down>": false
+    }
+}
