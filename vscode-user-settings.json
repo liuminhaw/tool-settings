@@ -5,6 +5,7 @@
         "<C-x>": false,
         "<C-c>": false,
         "<C-v>": false,
+        "<C-a>": false,
         "<C-[>": false,
         "<C-]>": false,
         "<C-up>": false,
