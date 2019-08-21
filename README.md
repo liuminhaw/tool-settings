@@ -12,3 +12,7 @@ Set tilix scheme with the colors of Pop_OS
 
 Reference
 - https://github.com/Toyonut/tilix_pop_os_theme
+
+## vimrc
+configuration file for vim
+- location `~/.vimrc`
