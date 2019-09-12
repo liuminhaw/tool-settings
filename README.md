@@ -1,11 +1,6 @@
 # tool-settings
 Daily used tools configuration
 
-## vscode-user-settings
-Configuration file for Visual Code
-- Install vim extension
-- Use Dracula color theme
-
 ## tilix-scheme-settings
 Set tilix scheme with the colors of Pop_OS
 - Put setting json file to location `${HOME}/.config/tilix/schemes` 
@@ -20,3 +15,11 @@ Configuration file for vim
 ## basrc
 User custom configuration file
 - location `~/.bashrc`
+
+## vscode-user-settings
+Configuration file for Visual Code Editor
+- Install vim extension
+- Use Dracula color theme
+
+## vscode-user-keybindings
+Set custom keybindings for Visual Code Editor
