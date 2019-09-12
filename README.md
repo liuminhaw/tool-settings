@@ -14,5 +14,9 @@ Reference
 - https://github.com/Toyonut/tilix_pop_os_theme
 
 ## vimrc
-configuration file for vim
+Configuration file for vim
 - location `~/.vimrc`
+
+## basrc
+User custom configuration file
+- location `~/.bashrc`
