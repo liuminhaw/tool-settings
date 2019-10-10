@@ -1,0 +1,29 @@
+[global_config]
+  title_transmit_bg_color = "#F49747"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 3812c47b-2ca7-477e-be08-ba46e7a702f6
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 50:82
+      size = 1600, 700
+      title = Terminated
+      type = Window
+    [[[terminal1]]]
+      order = 0
+      parent = child0
+      profile = default
+      type = Terminal
+      uuid = 3812c47b-2ca7-477e-be08-ba46e7a702f6
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#333333"
+    cursor_color = "#f6f6f6"
+    foreground_color = "#f2f2f2"
+    palette = "#333333:#cc0000:#4e9a06:#c4a000:#3465a4:#74407b:#06989a:#d3d7cf:#88807c:#f15d22:#73c48f:#ffce51:#48b9c7:#ad7fa8:#34e2e2:#eeeeec"
