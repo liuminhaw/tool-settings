@@ -1,6 +1,10 @@
 # tool-settings
 Daily used tools configuration
 
+## terminator-config
+Set terminator scheme with the colors of Pop_OS
+- configuration file set in `${HOME}/.config/terminator/config`
+
 ## tilix-scheme-settings
 Set tilix scheme with the colors of Pop_OS
 - Put setting json file to location `${HOME}/.config/tilix/schemes` 
@@ -12,7 +16,6 @@ Reference
 ## vimrc
 Configuration file for vim
 - location `~/.vimrc`
-
 
 ## basrc
 User custom configuration file
