@@ -29,8 +29,10 @@ User custom configuration file
 
 ### vscode-user-settings
 Configuration file for Visual Code Editor
-- Install vim extension
-- Use Dracula color theme
+- ~Install vim extension~
+- ~Use Dracula color theme~
+- Monokai pro color theme
+- indent rainbow extension
 
 ### vscode-user-keybindings
 Set custom keybindings for Visual Code Editor
