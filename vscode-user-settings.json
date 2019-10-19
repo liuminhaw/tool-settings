@@ -1,14 +1,5 @@
 {
-    "workbench.colorTheme": "Dracula", 
-    "editor.renderWhitespace": "all",
-    "vim.handleKeys": {
-        "<C-x>": false,
-        "<C-c>": false,
-        "<C-v>": false,
-        "<C-a>": false,
-        "<C-[>": false,
-        "<C-]>": false,
-        "<C-up>": false,
-        "<C-down>": false
-    }
+    "workbench.colorTheme": "Monokai Pro",
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "editor.fontFamily": "'Fira Code'"
 }
