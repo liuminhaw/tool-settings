@@ -33,3 +33,7 @@ User custom configuration file
 ### vscode-user-settings
 Configuration file for Visual Code Editor  
 `settings.json` file
+
+### vscode-user-keybindings
+Configuration file for Visual Code Editor
+`keybindings.json` file
