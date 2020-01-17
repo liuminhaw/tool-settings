@@ -1,4 +1,5 @@
 [
     { "key": "ctrl+shift+c", "command": "editor.action.clipboardCopyAction" },
-    { "key": "ctrl+shift+v", "command": "editor.action.clipboardPasteAction" }
+    { "key": "ctrl+shift+v", "command": "editor.action.clipboardPasteAction" },
+    { "key": "ctrl+shift+a", "command": "editor.action.selectAll" }
 ]
