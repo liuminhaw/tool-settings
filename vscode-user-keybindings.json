@@ -2,5 +2,7 @@
     { "key": "ctrl+shift+c", "command": "editor.action.clipboardCopyAction" },
     { "key": "ctrl+shift+v", "command": "editor.action.clipboardPasteAction" },
     { "key": "ctrl+shift+x", "command": "editor.action.clipboardCutAction" },
-    { "key": "ctrl+shift+a", "command": "editor.action.selectAll" }
+    { "key": "ctrl+shift+a", "command": "editor.action.selectAll" },
+    { "key": "ctrl+]", "command": "editor.action.indentLines" },
+    { "key": "ctrl+[", "command": "editor.action.outdentLines" }
 ]
