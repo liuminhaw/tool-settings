@@ -1,5 +1,11 @@
 {
     "workbench.colorTheme": "Monokai Pro",
     "workbench.iconTheme": "Monokai Pro Icons",
-    "editor.fontFamily": "'Fira Code'"
+    "editor.fontFamily": "'Fira Code'",
+    "remote.SSH.showLoginTerminal": true,
+    "editor.cursorStyle": "line",
+    "editor.insertSpaces": false,
+    "editor.lineNumbers": "on",
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.wordWrap": "off"
 }

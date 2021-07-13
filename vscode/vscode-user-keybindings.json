@@ -4,5 +4,7 @@
     { "key": "ctrl+shift+x", "command": "editor.action.clipboardCutAction" },
     { "key": "ctrl+shift+a", "command": "editor.action.selectAll" },
     { "key": "ctrl+]", "command": "editor.action.indentLines" },
-    { "key": "ctrl+[", "command": "editor.action.outdentLines" }
+    { "key": "ctrl+[", "command": "editor.action.outdentLines" },
+    { "key": "ctrl+w ctrl+q", "command": "workbench.action.closeActiveEditor" },
+    { "key": "ctrl+e", "command": "-workbench.action.quickOpen" }
 ]
