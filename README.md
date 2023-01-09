@@ -25,6 +25,19 @@ User custom configuration file
 `tmux` configuration file
 - location `~/.tmux.conf`
 
+## neovim
+`neovim` configurations
+- location `~/.config/nvim/`
+### References
+- [packer](https://github.com/wbthomason/packer.nvim)
+- [mason](https://github.com/williamboman/mason.nvim)
+  - lsp: [gopls](https://github.com/golang/tools/tree/master/gopls)
+- code completion: [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+- [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
+  - [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
+  
+
+
 ## Visual Code
 - `Monokai pro` color theme
 - `indent rainbow` extension
