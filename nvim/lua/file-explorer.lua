@@ -7,5 +7,10 @@ vim.opt.termguicolors = true
 require('nvim-tree').setup({
 	open_on_setup = true,
 	ignore_buffer_on_setup = true,
+	modified = {
+        enable = true,
+        show_on_dirs = true,
+        show_on_open_dirs = true,
+    },
 })
 
