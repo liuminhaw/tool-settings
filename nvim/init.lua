@@ -22,4 +22,4 @@ require('file-finder')
 require('syntax-highlight')
 require('statusbar')
 require('autopairs')
-
+-- require('indentation')
