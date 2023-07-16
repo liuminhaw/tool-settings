@@ -1,7 +1,8 @@
 {
-    "workbench.colorTheme": "Monokai Pro",
-    "workbench.iconTheme": "Monokai Pro Icons",
-    "editor.fontFamily": "'Fira Code'",
+    "workbench.colorTheme": "GitHub Dark Default",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.inlineSuggest.enabled": true,
     "remote.SSH.showLoginTerminal": true,
     "editor.cursorStyle": "line",
     "editor.insertSpaces": false,
