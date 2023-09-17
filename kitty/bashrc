@@ -1,0 +1,5 @@
+# Settings for kitty
+alias ls='ls --color=auto --hyperlink=auto'
+export EDITOR=/usr/bin/hx
+export VISUAL=/usr/bin/hx
+
