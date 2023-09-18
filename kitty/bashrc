@@ -3,3 +3,6 @@ alias ls='ls --color=auto --hyperlink=auto'
 export EDITOR=/usr/bin/hx
 export VISUAL=/usr/bin/hx
 
+source /usr/share/bash-completion/completions/ssh
+alias sshk="kitty +kitten ssh"
+complete -F _ssh sshk
