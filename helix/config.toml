@@ -1,0 +1,7 @@
+theme = "github_dark"
+
+[editor]
+shell = ["bash", "-c"]
+
+[editor.file-picker]
+hidden = false
