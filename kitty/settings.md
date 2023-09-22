@@ -1,9 +1,10 @@
 # Kitty settings
 
-- [Default terminal](##default-terminal)
-- [Terminal hyperlink](##terminal-hyperlink)
-- [SSH tip](##ssh-tip)
-- [New window](##new-window)
+- [Default terminal](#default-terminal)
+- [Terminal hyperlink](#terminal-hyperlink)
+- [SSH tip](#ssh-tip)
+- [New window](#new-window)
+- [Chinese input](#chinese-input)
 
 ## Default terminal
 Set kitty as default terminal
@@ -39,4 +40,10 @@ alias sshk="kitty +kitten ssh"
 Open new window with the current working directory (`~/.config/kitty.conf`)
 ```conf
 map ctrl+alt+enter launch --cwd=current
+```
+
+## Chinese input
+To enable Chinese input in kitty, launch kitty with command
+```bash
+env GLFW_IM_MODULE=ibus /path/to/kitty/execution
 ```
