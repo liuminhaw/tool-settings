@@ -2,3 +2,31 @@
 name = "markdown"
 language-server = { command = "/home/haw/.cargo/bin/mdpls" }
 config = { markdown.preview.auto = true, markdown.preview.browser = "google-chrome" }
+
+[[language]]
+name = "html"
+formatter = { command = 'prettier', args = ["--parser", "html"] }
+file-types=["html", "gohtml"]
+
+[[language]]
+name = "json"
+formatter = { command = 'prettier', args = ["--parser", "json"] }
+file-types=["json"]
+
+[[language]]
+name = "css"
+formatter = { command = 'prettier', args = ["--parser", "css"] }
+file-types=["css"]
+
+[[language]]
+name = "javascript"
+formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+auto-format = true
+file-types=["js"]
+
+[[language]]
+name = "typescript"
+formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+auto-format = true
+file-types=["ts"]
+
