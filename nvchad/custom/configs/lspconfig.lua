@@ -20,3 +20,11 @@ lspconfig.gopls.setup {
     }
   }
 }
+
+lspconfig.bashls.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+  cmd = {"bash-language-server", "start"},
+  filetype = {"sh", "bash"},
+}
+

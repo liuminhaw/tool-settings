@@ -11,6 +11,7 @@ local plugins = {
         "golines",
         "goimports",
         "gofumpt",
+        "bash-language-server",
       },
     },
   },
