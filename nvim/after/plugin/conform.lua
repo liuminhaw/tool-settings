@@ -1,5 +1,6 @@
 require("conform").setup({
     formatters_by_ft = {
+        sh = { "shfmt" },
         lua = { "stylua" },
         -- Conform will run multiple formatters sequentially
         -- python = { "isort", "black" },
@@ -9,6 +10,7 @@ require("conform").setup({
         markdown = { "deno_fmt" },
         json = { "deno_fmt" },
         html = { "prettier" },
+        yaml = { "prettier" },
     },
 })
 

@@ -35,21 +35,51 @@ require("mason-lspconfig").setup({
 					},
 				},
 			})
+
+			require("lspconfig").yamlls.setup({
+				settings = {
+					yaml = {
+						customTags = { "!reference" },
+					},
+					schemas = {
+						["https://gitlab.com/gitlab-org/gitlab/-/raw/master/app/assets/javascripts/editor/schema/ci.json"] = {
+							".gitlab-ci/*.yml",
+							".gitlab-ci.yml",
+						},
+					},
+				},
+			})
 		end,
 	},
 })
 
--- local lsp_configurations = require('lspconfig.configs')
+-- local lsp_configurations = require("lspconfig.configs")
 --
--- if not lsp_configurations.mdformat then
---   lsp_configurations.mdformat = {
---     default_config = {
---       name = 'mdformat',
---       cmd = {'mdformat'},
---       filetypes = {'markdown', 'md'},
---       root_dir = require('lspconfig.util').root_pattern('.md', '.git')
---     }
---   }
+-- if not lsp_configurations.yamlls then
+-- 	lsp_configurations.yamlls = {
+-- 		default_config = {
+-- 			name = "yamlls",
+-- 			customTags = { "!reference" },
+-- 			schemas = {
+-- 				["https://gitlab.com/gitlab-org/gitlab/-/raw/master/app/assets/javascripts/editor/schema/ci.json"] = {
+-- 					".gitlab-ci/*.yml",
+-- 					".gitlab-ci.yml",
+-- 				},
+-- 			},
+-- 		},
+-- 	}
 -- end
---
--- require('lspconfig').mdformat.setup({})
+
+-- require("lspconfig").yamlls.setup({
+-- 	settings = {
+-- 		yaml = {
+-- 			customTags = { "!reference" },
+-- 		},
+-- 		schemas = {
+-- 			["https://gitlab.com/gitlab-org/gitlab/-/raw/master/app/assets/javascripts/editor/schema/ci.json"] = {
+-- 				".gitlab-ci/*.yml",
+-- 				".gitlab-ci.yml",
+-- 			},
+-- 		},
+-- 	},
+-- })
