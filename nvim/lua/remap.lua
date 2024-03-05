@@ -48,9 +48,15 @@ vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
 
+-- Copilot remaps
 vim.keymap.set("i", "<C-l>", function()
     vim.fn.feedkeys(vim.fn['copilot#Accept'](), '')
 end)
 vim.keymap.set("i", "<M-l>", "<Plug>(copilot-accept-word)")
 vim.keymap.set("i", "<M-j>", "<Plug>(copilot-accept-line)")
 vim.keymap.set("i", "<M-p>", "<cmd>Copilot panel<CR>")
+
+-- rsync remaps for sudo permission
+vim.keymap.set("n", "<leader>rs", "<cmd>let g:netrw_rsync_cmd='rsync --rsync-path=\"sudo rsync\"'<CR>")
+vim.keymap.set("n", "<leader>rr", "<cmd>let g:netrw_rsync_cmd='rsync'<CR>")
+vim.keymap.set("n", "<leader>re", "<cmd>echo g:netrw_rsync_cmd<CR>")
