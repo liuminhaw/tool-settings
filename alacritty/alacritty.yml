@@ -23,9 +23,9 @@ font:
     family: FiraCode Nerd Font
     # Style can be specified to pick a specific face.
     style: Italic
-  size: 8.0
+  size: 7.5
 
 window:
-  dimensions: 
+  dimensions:
     columns: 120
     lines: 30
