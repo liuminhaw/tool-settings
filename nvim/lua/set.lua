@@ -31,15 +31,20 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = "80"
 
 vim.api.nvim_create_autocmd("TextYankPost", {
-	group = vim.api.nvim_create_augroup("YankHighlight", { clear = true }),
-	callback = function()
-		vim.highlight.on_yank({ higroup = "IncSearch", timeout = 150 })
-	end,
+  group = vim.api.nvim_create_augroup("YankHighlight", { clear = true }),
+  callback = function()
+    vim.highlight.on_yank({higroup="IncSearch", timeout=150})
+  end,
 })
 
-vim.api.nvim_create_user_command("CRemove", function(opts)
-	local idx = tonumber(opts.args)
-	local quicklist = vim.fn.getqflist()
-	table.remove(quicklist, idx)
-	vim.fn.setqflist({}, "r", { items = quicklist })
-end, { desc = "Remove item of given index from quicklist", nargs = 1 })
+vim.api.nvim_create_user_command("CRemove",
+  function(opts)
+    local idx = tonumber(opts.args)
+    local quicklist = vim.fn.getqflist()
+    table.remove(quicklist, idx)
+    vim.fn.setqflist({}, 'r', {items = quicklist})
+  end,
+  {desc = "Remove item of given index from quicklist", nargs = 1}
+)
+
+
