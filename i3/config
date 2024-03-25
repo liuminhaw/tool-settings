@@ -218,6 +218,12 @@ mode "lock" {
 }
 bindsym $mod+Shift+x mode "lock"
 
+# Auto lock screen settings, lock screen after X minutes of inactivity
+# Not tested: exec --no-startup-id xautolock -time 10 -locker "i3lock --color 006666" -notify 30 -notifier "notify-send 'Screen will be locked in 30 seconds'"
+# Prerequisites: xautolock, i3lock
+exec --no-startup-id xautolock -time 10 -locker "i3lock --color 006666" 
+
+
 # Screenshot bindings
 # Prerequisites: maim, xclip, xdotool
 # Reference from: https://gist.github.com/dianjuar/ee774561a8bc02b077989bc17424a19f
