@@ -57,6 +57,9 @@ vim.keymap.set("i", "<M-j>", "<Plug>(copilot-accept-line)")
 vim.keymap.set("i", "<M-p>", "<cmd>Copilot panel<CR>")
 
 -- rsync remaps for sudo permission
+-- rsync command usage for editing remote files
+-- :e rsync://user@host[:port]/path/to/file
+-- reference: https://www.vim.org/scripts/script.php?script_id=1075
 vim.keymap.set("n", "<leader>rs", "<cmd>let g:netrw_rsync_cmd='rsync --rsync-path=\"sudo rsync\"'<CR>")
 vim.keymap.set("n", "<leader>rr", "<cmd>let g:netrw_rsync_cmd='rsync'<CR>")
 vim.keymap.set("n", "<leader>re", "<cmd>echo g:netrw_rsync_cmd<CR>")

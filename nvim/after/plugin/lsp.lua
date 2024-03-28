@@ -39,7 +39,7 @@ require("mason-lspconfig").setup({
 			require("lspconfig").yamlls.setup({
 				settings = {
 					yaml = {
-						customTags = { "!reference" },
+						customTags = { "!reference", "!Ref", "!Sub", "!GetAtt", "!GetAZs", "!Select", "!FindInMap", "!Base64", "!Cidr", "!Transform", "!And", "!Equals", "!If", "!Not", "!Or" },
 					},
 					schemas = {
 						["https://gitlab.com/gitlab-org/gitlab/-/raw/master/app/assets/javascripts/editor/schema/ci.json"] = {
